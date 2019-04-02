@@ -1,0 +1,17 @@
+logging:
+  level: INFO
+  loggers:
+    com.rtr.validation: DEBUG
+
+snowflake:
+  driverClass: net.snowflake.client.jdbc.SnowflakeDriver
+  url: jdbc:snowflake://
+  user:
+  password:
+
+
+mysql:
+  driverClass: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://
+  user:
+  password:
